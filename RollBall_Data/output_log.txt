@@ -1,0 +1,42 @@
+Mono path[0] = 'C:/Users/Kyle/Documents/RollBall/RollBall_Data/Managed'
+Mono path[1] = 'C:/Users/Kyle/Documents/RollBall/RollBall_Data/Mono'
+Mono config path = 'C:/Users/Kyle/Documents/RollBall/RollBall_Data/Mono/etc'
+PlayerConnection initialized from C:/Users/Kyle/Documents/RollBall/RollBall_Data (debug = 0)
+PlayerConnection initialized network socket : 0.0.0.0 55269
+Multi-casting "[IP] 192.168.1.15 [Port] 55269 [Flags] 2 [Guid] 2140903581 [EditorId] 3749097390 [Version] 1048832 [Id] WindowsPlayer(DESKTOP-9ADT51L) [Debug] 0" to [225.0.0.222:54997]...
+PlayerConnection already initialized - listening to [192.168.1.15:55269]
+Initialize engine version: 5.3.6f1 (29055738eb78)
+GfxDevice: creating device client; threaded=1
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.0]
+    Renderer: NVIDIA GeForce GTX 950M          (ID=0x139a)
+    Vendor:   NVIDIA
+    VRAM:     1995 MB
+Begin MonoManager ReloadAssembly
+Platform assembly: C:\Users\Kyle\Documents\RollBall\RollBall_Data\Managed\UnityEngine.dll (this message is harmless)
+Loading C:\Users\Kyle\Documents\RollBall\RollBall_Data\Managed\UnityEngine.dll into Unity Child Domain
+Platform assembly: C:\Users\Kyle\Documents\RollBall\RollBall_Data\Managed\Assembly-CSharp.dll (this message is harmless)
+Loading C:\Users\Kyle\Documents\RollBall\RollBall_Data\Managed\Assembly-CSharp.dll into Unity Child Domain
+Platform assembly: C:\Users\Kyle\Documents\RollBall\RollBall_Data\Managed\UnityEngine.UI.dll (this message is harmless)
+Loading C:\Users\Kyle\Documents\RollBall\RollBall_Data\Managed\UnityEngine.UI.dll into Unity Child Domain
+Platform assembly: C:\Users\Kyle\Documents\RollBall\RollBall_Data\Managed\UnityEngine.Networking.dll (this message is harmless)
+Loading C:\Users\Kyle\Documents\RollBall\RollBall_Data\Managed\UnityEngine.Networking.dll into Unity Child Domain
+- Completed reload, in  0.260 seconds
+Platform assembly: C:\Users\Kyle\Documents\RollBall\RollBall_Data\Managed\System.Core.dll (this message is harmless)
+Platform assembly: C:\Users\Kyle\Documents\RollBall\RollBall_Data\Managed\System.dll (this message is harmless)
+desktop: 1920x1080 60Hz; virtual: 1920x1080 at 0,0
+<RI> Initializing input.
+XInput1_3.dll not found. Trying XInput9_1_0.dll instead...
+<RI> Input initialized.
+<RI> Initialized touch support.
+UnloadTime: 1.721503 ms
+Setting up 1 worker threads for Enlighten.
+  Thread -> id: 2058 -> priority: 1 
+Unloading 6 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 12.419552 ms
+System memory in use before: 17.8 MB.
+System memory in use after: 17.8 MB.
+
+Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 272.
+Total: 0.340101 ms (FindLiveObjects: 0.036389 ms CreateObjectMapping: 0.030324 ms MarkObjects: 0.244929 ms  DeleteObjects: 0.016328 ms)
+
