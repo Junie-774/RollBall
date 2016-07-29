@@ -12,7 +12,9 @@ public class PlayerControl : MonoBehaviour {
     private Vector3 playerMovement;
 
     private BipManager bipManager;
-    public GameObject thing;
+    public GameObject playerFollower;
+    public GameObject pauseMenuObject;
+    private PauseMenu pauseMenuScript;
 
 
     void Start()
@@ -21,6 +23,8 @@ public class PlayerControl : MonoBehaviour {
         playerBody = GetComponent<Rigidbody>();
         bipManager = GameObject.Find("Bips").GetComponent<BipManager>();
         transform.parent = transform;
+
+        pauseMenuScript = pauseMenuObject.GetComponent<PauseMenu>();
     }
 
     void Update()
@@ -28,6 +32,11 @@ public class PlayerControl : MonoBehaviour {
         if (transform.position.y < -100)
         {
             SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+        }
+        if (Input.GetKeyDown(KeyCode.Escape))
+        {
+            pauseMenuObject.SetActive(true);
+            pauseMenuScript.EnterPauseMenu();
         }
     }
 
@@ -39,7 +48,7 @@ public class PlayerControl : MonoBehaviour {
 
         playerMovement.x = moveHorizontal;
         playerMovement.z = moveVertical;
-        playerMovement = thing.transform.TransformDirection(playerMovement);
+        playerMovement = playerFollower.transform.TransformDirection(playerMovement);
         playerMovement.y = 0;
         playerBody.AddForce(playerMovement * thrust);
     }
